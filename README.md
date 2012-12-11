@@ -7,9 +7,11 @@ Examples
 ---------------
 
 HTML:
+
 &lt;div id="num"&gt;1234&lt;/div&gt;
 
 JS:
+
 $("#num").animateNumbers(4321);
 
 In this example the div #num will be animated from 1234 to 4321 using the defaults; one second, with commas, swing ease.
@@ -17,9 +19,11 @@ In this example the div #num will be animated from 1234 to 4321 using the defaul
 The other extreme is to set the options to something other than the defaults.
 
 HTML:
+
 &lt;div id="num"&gt;1234&lt;/div&gt;
 
 JS:
+
 $("#num").animateNumbers(4321, false, 2000, "linear");
 
 In this example the div #num will be animated from 1234 to 4321 with these settings: two seconds, no commas, linear ease.
@@ -34,3 +38,5 @@ This plugin uses the $.animate() method of jQuery to step a number towards the d
 http://www.josscrowcroft.com/2011/code/jquery-animate-increment-decrement-numeric-text-elements-value/
 
 I extended the example to what I have here to suit a project of mine. Decided to put it up on GitHub in case someone else finds it useful.
+
+If the end result number is to have commas then it is suggested that the number created in HTML have commas as well.
