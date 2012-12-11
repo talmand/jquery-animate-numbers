@@ -7,7 +7,7 @@ Examples
 ---------------
 
 HTML:
-<div id="num">1234</div>
+&lt;div id="num"&gt;1234&lt;/div&gt;
 
 JS:
 $("#num").animateNumbers(4321);
@@ -17,7 +17,7 @@ In this example the div #num will be animated from 1234 to 4321 using the defaul
 The other extreme is to set the options to something other than the defaults.
 
 HTML:
-<div id="num">1234</div>
+&lt;div id="num"&gt;1234&lt;/div&gt;
 
 JS:
 $("#num").animateNumbers(4321, false, 2000, "linear");
