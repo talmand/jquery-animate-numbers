@@ -30,6 +30,11 @@ In this example the div #num will be animated from 1234 to 4321 with these setti
 
 Most likely you will apply the plugin method to an element upon an event firing. Document ready and click are common choices.
 
+Demo
+---------------
+
+http://jsfiddle.net/JsEa6/
+
 Notes
 ---------------
 
