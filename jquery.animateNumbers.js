@@ -13,6 +13,8 @@
 	If the number is within copy then separate it with a span and target the span
     Will work in appropriate inputs
 	Inserts and accounts for commas during animation by default
+    
+    https://github.com/talmand/jquery-animate-numbers
 ***********/
 
 (function($) {
